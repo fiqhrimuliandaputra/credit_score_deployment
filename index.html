@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <script src="../static/code.js"></script>
+    <title>credit scoring</title>
+  </head>
+  <body>
+    <br>
+    <a><img class="logo" src="../static/credit.svg" alt=""></a>
+    <br>
+    <div class="container main">
+  <div class="jumbotron" id="holder">
+    <h1 class='main_heading'>Credit Scoring Calculator</h1>
+    <br>
+    <h3>Check Your Credit Score</h3>
+    <br>
+    <!-- START OF FORM -->
+    
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-sm-2"  for="person_age">Person Age</label>
+        <div class="col-sm-10">
+          <input  type="number" class="form-control" id="person_age" name="person_age" placeholder=" Enter Your Age" onkeydown="return event.key != 'Enter';">
+        </div>
+      </div>
+      <div class="form-group"></div>
+        <label class="control-label col-sm-2"  for="person_income">Person Income</label>
+        <div class="col-sm-10">
+          <input  type="number" class="form-control" id="person_income" name="person_income" placeholder=" Enter Your Person Income" onkeydown="return event.key != 'Enter';">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Person Home Ownership</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="person_home_ownership" name="person_home_ownership" required>
+            <option selected="true" disabled="disabled" value="" >--------------    required    ------------</option>
+            <option value="null">None</option>
+            <option value="RENT">RENT</option>
+            <option value="OWN">OWN</option>
+            <option value="MORTGAGE">MORTGAGE</option>
+            <option value="OTHER">OTHER</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group"></div>
+      <label class="control-label col-sm-2"  for="person_emp_length">Person Emp Length</label>
+      <div class="col-sm-10">
+       <input  type="number" class="form-control" id="person_emp_length" name="person_emp_length" placeholder=" Enter Your EMP Length" onkeydown="return event.key != 'Enter';">
+      </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Loan Intent</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="loan_intent" name="loan_intent" required>
+            <option selected="true" value="" disabled="disabled">--------------    required    ------------</option>
+            <option value="null">None</option>
+            <option value="PERSONAL">PERSONAL</option>
+            <option value="EDUCATION">EDUCATION</option>
+            <option value="MEDICAL">MEDICAL</option>
+            <option value="VENTURE">VENTURE</option>
+            <option value="HOMEIMPROVEMENT">HOMEIMPROVEMENT</option>
+            <option value="DEBTCONSOLIDATION">DEBTCONSOLIDATION</option>  
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Loan Grade</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="loan_grade" name="loan_grade" required>
+            <option value="" disabled="disabled">--------------   required   ------------</option>
+            <option value=0>G</option>
+            <option value=1>F</option>
+            <option value=2>E</option>
+            <option value=3>D</option>
+            <option value=4>C</option>
+            <option value=5>B</option>
+            <option value=6>A</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Loan amount</label>
+        <div class="col-sm-10">
+          <input type=number step="0.001" class="form-control" id="loan_amnt" name="Loan amount" placeholder=" Enter Your Loan amount" onkeydown="return event.key != 'Enter';" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Loan Int Rate</label>
+        <div class="col-sm-10">
+          <input type="number" step="0.001" class="form-control" id="loan_int_rate" name="Loan Int Rate" placeholder=" Enter Loan Int Rate" onkeydown="return event.key != 'Enter';" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Loan Percent Income</label>
+        <div class="col-sm-10">
+          <input type="number" step="0.001" class="form-control" id="loan_percent_income" name="Loan Percent Income" placeholder=" Enter Loan Percent Income" onkeydown="return event.key != 'Enter';" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Loan Int Rate</label>
+        <div class="col-sm-10">
+          <input type="number" step="0.001" class="form-control" id="loan_int_rate" name="Loan Int Rate" placeholder=" Enter Loan Int Rate" onkeydown="return event.key != 'Enter';" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Cb Person Default on File</label>
+        <div class="col-sm-10">
+          <select class="form-control" id="cb_person_default_on_file" name="cb_person_default_on_file" required>
+            <option selected="true" disabled="disabled" value="" >--------------    required    ------------</option>
+            <option value="Y">Y</option>
+            <option value="N">N</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" >Cb Person Cred Hist Length</label>
+        <div class="col-sm-10">
+          <input type="number" step="0.001" class="cb_person_cred_hist_length" id="cb_percent_cred_hist_length" name="Cb Person Cred Hist Length" placeholder=" Enter Cb Percent Default on FIle" onkeydown="return event.key != 'Enter';" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="button btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+    <h2 class="result"></h2>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <div class="footer-copyright text-center py-3">
+    <div class="bottom">
+      <p><a href="#">Fiqhri Mulianda Putra | Credit Scoring</a></p>
+    </div>
+  </div>
+
+</footer>
+<!-- Footer -->
+
+
+  </body>
+</html>
