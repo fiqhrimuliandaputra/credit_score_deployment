@@ -37,9 +37,6 @@ def create_app():
             "model_version": "credit_risk_1.0.0",
             "api_version": "v1",
             "result": str(round(list(result)[0], 3))
-            }
-        print(result)
-	    return jsonify(result)
-        
-if __name__ == '__main__':
-    app.run(port=3000, debug=True)
+        }
+	return jsonify(result)
+    return app
