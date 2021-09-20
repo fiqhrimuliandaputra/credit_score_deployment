@@ -12,7 +12,7 @@ API untuk akses dari web masih belum tersambung dengan model dan masih da error 
 API POSTMAN https://csfiqhri.herokuapp.com/predict
 
 
-Contoh input
+Contoh input JSON untuk POSTMAN
 ```
 {
     "person_age": 27,
@@ -29,7 +29,7 @@ Contoh input
 }
 ```
 
-Output
+Output dari POSTMAN
 ```
 {
     "api_version": "v1",
@@ -38,7 +38,10 @@ Output
 }
 ```
 ![image](https://user-images.githubusercontent.com/43493631/133956534-7ae8e01b-2540-4b7f-8c25-bb47538d0277.png)
-
+```
+Output dari Terminal
+```
+![image](https://user-images.githubusercontent.com/43493631/133956964-420f48da-defa-499a-8a3d-43e96a2aa3ec.png)
 
 
 
