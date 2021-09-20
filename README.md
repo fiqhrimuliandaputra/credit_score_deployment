@@ -1,5 +1,6 @@
-API https://csfiqhri.herokuapp.com/
+PUBLIC API https://csfiqhri.herokuapp.com/
 
+https://github.com/fqhrmp/coba
 
 https://cscoba.herokuapp.com/?person_age=3&person_income=3&person_home_ownership=OWN&person_emp_length=3&loan_intent=PERSONAL&loan_grade=C&loan_amnt=33&loan_int_rate=3&loan_percent_income=3&cb_person_default_on_file=Y&cb_person_cred_hist_length=3
 
