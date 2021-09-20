@@ -6,11 +6,23 @@ https://cscoba.herokuapp.com/?person_age=3&person_income=3&person_home_ownership
 
 API untuk akses dari web masih belum tersambung dengan model dan masih da error di file htmlnya, mungkin untuk contoh input bisa diakses melalui postman dbawah ini.
 
-![image](https://user-images.githubusercontent.com/43493631/133956411-1462d047-cf80-4324-9baf-9c743bb6d0a4.png)
-
 
 API Heroku POSTMAN https://csfiqhri.herokuapp.com/predict
 
+Request Header
+```
+![image](https://user-images.githubusercontent.com/43493631/133956411-1462d047-cf80-4324-9baf-9c743bb6d0a4.png)
+```
+
+![image](https://user-images.githubusercontent.com/43493631/133956534-7ae8e01b-2540-4b7f-8c25-bb47538d0277.png)
+```
+Output dari Terminal VSC
+```
+![image](https://user-images.githubusercontent.com/43493631/133956964-420f48da-defa-499a-8a3d-43e96a2aa3ec.png)
+```
+Output dari POSTMAN menggunakan GET http://127.0.0.1:3000/predict
+```
+![image](https://user-images.githubusercontent.com/43493631/133957132-535eaca6-fa1f-4463-94bf-117b7770d2e0.png)
 
 Contoh input JSON untuk POSTMAN
 ```
@@ -37,13 +49,4 @@ Output dari Heroku POSTMAN
     "result": "0.128"
 }
 ```
-![image](https://user-images.githubusercontent.com/43493631/133956534-7ae8e01b-2540-4b7f-8c25-bb47538d0277.png)
-```
-Output dari Terminal VSC
-```
-![image](https://user-images.githubusercontent.com/43493631/133956964-420f48da-defa-499a-8a3d-43e96a2aa3ec.png)
-
-Output dari POSTMAN menggunakan GET http://127.0.0.1:3000/predict
-
-![image](https://user-images.githubusercontent.com/43493631/133957132-535eaca6-fa1f-4463-94bf-117b7770d2e0.png)
 
