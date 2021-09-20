@@ -9,7 +9,7 @@ API untuk akses dari web masih belum tersambung dengan model dan masih da error 
 ![image](https://user-images.githubusercontent.com/43493631/133956411-1462d047-cf80-4324-9baf-9c743bb6d0a4.png)
 
 
-API POSTMAN https://csfiqhri.herokuapp.com/predict
+API Heroku POSTMAN https://csfiqhri.herokuapp.com/predict
 
 
 Contoh input JSON untuk POSTMAN
@@ -29,7 +29,7 @@ Contoh input JSON untuk POSTMAN
 }
 ```
 
-Output dari POSTMAN
+Output dari Heroku POSTMAN
 ```
 {
     "api_version": "v1",
@@ -39,9 +39,11 @@ Output dari POSTMAN
 ```
 ![image](https://user-images.githubusercontent.com/43493631/133956534-7ae8e01b-2540-4b7f-8c25-bb47538d0277.png)
 ```
-Output dari Terminal
+Output dari Terminal VSC
 ```
 ![image](https://user-images.githubusercontent.com/43493631/133956964-420f48da-defa-499a-8a3d-43e96a2aa3ec.png)
 
+Output dari POSTMAN menggunakan http://127.0.0.1:3000/predict
 
+![image](https://user-images.githubusercontent.com/43493631/133957132-535eaca6-fa1f-4463-94bf-117b7770d2e0.png)
 
