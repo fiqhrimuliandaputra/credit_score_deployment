@@ -43,7 +43,7 @@ Output dari Terminal VSC
 ```
 ![image](https://user-images.githubusercontent.com/43493631/133956964-420f48da-defa-499a-8a3d-43e96a2aa3ec.png)
 
-Output dari POSTMAN menggunakan http://127.0.0.1:3000/predict
+Output dari POSTMAN menggunakan GET http://127.0.0.1:3000/predict
 
 ![image](https://user-images.githubusercontent.com/43493631/133957132-535eaca6-fa1f-4463-94bf-117b7770d2e0.png)
 
