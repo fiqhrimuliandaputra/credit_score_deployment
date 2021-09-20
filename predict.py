@@ -2,19 +2,19 @@ import pickle
 import numpy as np
 import pandas as pd
 
-input = {
-    "person_age": 30,
-    "person_income": 5000,
-    "person_home_ownership": "RENT",
-    "person_emp_length": 6,
-    "loan_intent": "MEDICAL",
-    "loan_grade": "A",
-    "loan_amnt": 6000,
-    "loan_int_rate": 7,
-    "loan_percent_income": 0.15,
-    "cb_person_default_on_file": "Y",
-    "cb_person_cred_hist_length": 2
-}
+# input = {
+#     "person_age": 30,
+#     "person_income": 5000,
+#     "person_home_ownership": "RENT",
+#     "person_emp_length": 6,
+#     "loan_intent": "MEDICAL",
+#     "loan_grade": "A",
+#     "loan_amnt": 6000,
+#     "loan_int_rate": 7,
+#     "loan_percent_income": 0.15,
+#     "cb_person_default_on_file": "Y",
+#     "cb_person_cred_hist_length": 2
+# }
 
 def preprocess_input(input_data):
     """ preprocess input data """
@@ -48,7 +48,7 @@ def make_predictions(input_data):
     result = model.predict_proba(input_data)[:, 1]
     return result 
     
-if __name__ == "__main__":
-    # data = preprocess_input(input)
-    result = make_predictions(input)
-    print(result)
+# if __name__ == "__main__":
+#     # data = preprocess_input(input)
+#     result = make_predictions(input)
+#     print(result)
