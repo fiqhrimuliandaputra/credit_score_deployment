@@ -6,6 +6,9 @@ https://cscoba.herokuapp.com/?person_age=3&person_income=3&person_home_ownership
 
 API untuk akses dari web masih belum tersambung dengan model dan masih da error di file htmlnya, mungkin untuk contoh input bisa diakses melalui postman dbawah ini.
 
+![image](https://user-images.githubusercontent.com/43493631/133956411-1462d047-cf80-4324-9baf-9c743bb6d0a4.png)
+
+
 API POSTMAN https://csfiqhri.herokuapp.com/predict
 
 
@@ -34,7 +37,7 @@ Output
     "result": "0.128"
 }
 ```
-![csfiqhri](https://user-images.githubusercontent.com/43493631/133954382-89a3a10f-9820-4ab8-ba0a-55a8c803488e.JPG)
+![image](https://user-images.githubusercontent.com/43493631/133956366-8dcfead0-c9a8-498b-8446-5860905fc4c4.png)
 
 
 
