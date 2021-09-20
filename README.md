@@ -37,7 +37,8 @@ Output
     "result": "0.128"
 }
 ```
-![image](https://user-images.githubusercontent.com/43493631/133956366-8dcfead0-c9a8-498b-8446-5860905fc4c4.png)
+![image](https://user-images.githubusercontent.com/43493631/133956534-7ae8e01b-2540-4b7f-8c25-bb47538d0277.png)
+
 
 
 
