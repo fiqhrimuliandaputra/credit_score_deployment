@@ -1,3 +1,13 @@
+|Field|	Description|
+| --- | --- |
+|api_version	|The machine learning model.|
+|model_version|	Model version.|
+|result	|Probability estimates.|
+
+
+- HTTP Method menggunakan POST dan GET
+
+
 PUBLIC API https://csfiqhri.herokuapp.com/
 
 https://github.com/fqhrmp/coba
