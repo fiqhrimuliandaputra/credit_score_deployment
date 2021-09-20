@@ -1,8 +1,5 @@
-API https://csfiqhri.herokuapp.com/
 
-
-API POSTMAN https://csfiqhri.herokuapp.com/predict
-
+```
 Contoh input
 ```
 {
@@ -20,9 +17,17 @@ Contoh input
 }
 ```
 
-Ouput
+Output
+```
 {
     "api_version": "v1",
     "model_version": "credit_risk_1.0.0",
     "result": "0.128"
 }
+```
+
+API https://csfiqhri.herokuapp.com/
+
+```
+API POSTMAN https://csfiqhri.herokuapp.com/predict
+```
